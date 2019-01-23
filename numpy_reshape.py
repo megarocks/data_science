@@ -6,9 +6,12 @@ a = array([
 ])
 
 print(a.shape)
-
 print(a)
 
 a = a.reshape(2, 4*4)
 
+print(a)
+print(a.shape)
+
+a = a.astype('float64') / 10
 print(a)
